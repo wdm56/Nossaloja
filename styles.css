@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #786d2e;
+}
+
+header {
+    background-color: #000000; /* Roxo claro */
+    padding: 1px;
+    text-align: center;
+}
+
+img {
+    max-width: 40%;  /* Limita a largura máxima da imagem ao tamanho do contêiner */
+    height: auto;     /* Mantém a proporção da imagem */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #786d2e; /* Roxo mais escuro */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+.produtos {
+    display: flex;               /* Ativa o modelo Flexbox */
+    flex-wrap: wrap;            /* Permite que os itens se movam para a próxima linha se não houver espaço */
+    justify-content: center; /* Distribui os itens com espaço entre eles */
+}
+
+.produto {
+    flex: 1 1 31%;              /* Permite que cada produto ocupe até 30% da largura do contêiner */
+    margin: 3px;              /* Adiciona um espaço entre os produtos */
+    box-sizing: border-box;     /* Inclui padding e border no cálculo da largura */
+    /* border: 1px solid #e0e0e0;  */ /* Removido ou comentado */
+    padding: 10px;              /* Padding interno do produto */
+    text-align: center;         /* Centraliza o texto dentro do produto */
+}}
+
+button {
+    background-color: #000000; /* Rosa */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+button:hover {
+    background-color: #ff1493; /* Rosa escuro */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000; /* Roxo claro */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
